@@ -1,0 +1,40 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+button {
+    background-color: #de3535;
+    color: rgb(119, 11, 11);
+    border: 2px solid rgb(215, 155, 14);
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    shape-outside: margin-box;
+
+
+}
+
+.button:hover {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(215, 155, 14);
+    color: rgb(119, 11, 11);
+    border: 2px solid #de3535;
+}

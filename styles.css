@@ -12,13 +12,13 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px%;
-    margin: 0 auto;
     padding: 20px 15px;
-    
-    
 
+}
 
+.comtainer {
+    max-width: 1200px;
+    margin: auto;
 }
 
 ul {
@@ -50,14 +50,14 @@ ul li a {
     color: #000000;
     font-size: 24px;
     font-weight: bold;
-    text-transform: uppercase;
+    
     
 }
 
 space {
     color: #fb0606;
     font-weight: bold;
-    text-transform: uppercase;
+
 }
 
 .common-button {
@@ -68,5 +68,56 @@ space {
     font-weight: bold;
     text-align: center;
     font-size: 15px;
+    cursor: pointer;
 
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero1 h2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: 600px;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.outline-button {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    colour: #af1414;
+    cursor: pointer;
+    border-color: #ffbb00;
+
+}
+
+
+.hero-parent-root {
+    background-color: #e6e1d3;
+}
+
+.about-parant {
+    background-color: #e6e1d3;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.about-parant-child {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
